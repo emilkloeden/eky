@@ -6,7 +6,7 @@ from typing import Any
 
 class Eky:
     def __init__(self) -> None:
-        self.path = Path.home() / ".eky.json1"
+        self.path = Path.home() / ".eky.json"
         self.data: dict[str, Any] = {}
         self._load_file()
 
